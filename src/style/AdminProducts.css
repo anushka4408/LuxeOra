@@ -1,0 +1,38 @@
+/* Container for the product grid */
+.products-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax to control column width */
+    gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+  }
+  
+  /* Styling for each product card */
+  .product-card {
+    width: 100%; /* Full width of grid item */
+    height: 100%; /* Full height of grid item */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the product image */
+  .product-image {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Fixed height */
+     /* Crop image to fit */
+  }
+  
+  /* Optional: Adjust card text */
+  .card-body {
+    text-align: center; /* Center-align text */
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  

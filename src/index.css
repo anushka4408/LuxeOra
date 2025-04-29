@@ -1,13 +1,97 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Permanent+Marker&family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap');*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+ /* // <uniquifier>: Use a unique and descriptive class name
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} 
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}  */
+
+
+/* NAVBAR CSS */
+
+.navbar{
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: larger;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: white;
+  background: rgb(15, 13, 14) ;
+  box-shadow: 0px 8px 6px -6px rgb(12, 11, 12);
+  /* background-color: rgb(227, 28, 101); */
+}
+.nav-link{
+  font-weight: 700;
+}
+.active{
+  border-bottom: 1px solid black;
+}
+/* FOOTER */
+
+.footer{
+  /* margin:25px; */
+  color: white;
+  background: rgb(7, 7, 7);
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: larger;
+  line-height: 30px;
+  text-transform: uppercase;
+  
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: smaller;
+}
+.footer a:hover{
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: black;
+
 }
